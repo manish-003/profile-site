@@ -1,0 +1,77 @@
+baseURL: http://example.org/
+languageCode: en-us
+title: Manish
+theme: hugo-profile
+
+Paginate: 3
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+params:
+  title: "My profile"
+  favicon: "/avatar.svg"
+  # Hero
+  hero:
+    enable: true
+    intro: "Hi, my name is"
+    title: "Manish"
+    subtitle: "I enjoy xploring"
+    content: "a curious and quick learner. presently a student persuing B.Tech Robotics and Automation"
+    image: /avatar.svg
+    button:
+      enable: true
+      name: "Resume"
+      url: "#"
+      download: true 
+    socialLinks:
+      fontAwesomeIcons:
+        - icon: fab fa-github
+          url: https://github.com/manish-003
+        - icon: fab fa-instagram
+          url: https://instagram.com/instala_illa
+  
+  #about
+  about:
+    enable: true
+    title: "About me"
+    image: "/avatar.svg"
+    content: |-
+      the best way to know about me it to meet me in person.. 
+      I wont ask you to judge me based on some text you saw on the internet. and i am sure meeting me will be surprise for you😉
+      .
+      .
+
+
+    skills:
+      enable: true
+      title: Here are some things i have experimented with
+      items:
+        - "Python"
+        - "linux"
+        - "web developement"
+        - "Octave"
+        - "command line"
+        - "shell scripting"
+        - "ROS"
+        - "Embedded C"
+        - "markdown"
+  
+  education:
+    enable: true
+    items:
+      - title: "Bachelor of Technogy"
+        school:
+          name: "Rajalakshmi Engineering College"
+          url: "https://www.rajalakshmi.org/"
+        date: "2020 - 2024"
+      - title: "Higher Sceondary Education"
+        school:
+          name: "Vairams matric Higher Sceondary School"
+        date: "2020"
+      - title: "high education"
+        school:
+          name: "Vairams matric Higher Sceondary School"
+        date: "2018"
