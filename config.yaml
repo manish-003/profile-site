@@ -33,6 +33,10 @@ params:
           url: https://github.com/manish-003
         - icon: fab fa-instagram
           url: https://instagram.com/instala_illa
+        - icon: fab fa-linkedin
+          url: https://linkedin.com/in/manish-s-n-31b042213
+        - icon: fab fa-telegram
+          url: https://telegram.org/Fan_of_Myself
   
   #about
   about:
@@ -50,6 +54,7 @@ params:
       enable: true
       title: Here are some things i have experimented with
       items:
+        - "git(cli)"
         - "Python"
         - "linux"
         - "web developement"
@@ -59,6 +64,7 @@ params:
         - "ROS"
         - "Embedded C"
         - "markdown"
+        - "ssh"
   
   education:
     enable: true
@@ -72,7 +78,21 @@ params:
         school:
           name: "Vairams matric Higher Sceondary School"
         date: "2020"
-      - title: "high education"
+        GPA: "502/600"
+      - title: "high education(SSLC)"
         school:
           name: "Vairams matric Higher Sceondary School"
         date: "2018"
+        GPA: "475/500"
+
+  contact:
+    enable: true
+    content:  My inbox is always open. Whether you have a question or just want to say hi, I'll try my best to get back to you!
+    email: manish2k03@pm.me
+    btnName: Mail me!
+
+  footer:
+    socialNetworks:
+        github: https://github.com/manish-003
+        linkedin: https://linkedin.com/in/manish-s-n-31b042213
+        instagram: https://instagram.com/instala_illa
