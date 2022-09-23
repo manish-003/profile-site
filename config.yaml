@@ -13,7 +13,7 @@ markup:
 params:
   title: "My profile"
   staticPath: https://manish-003.github.io/profile-site/
-  favicon: "/avatar.svg"
+  favicon: "avatar.svg"
   # Hero
   hero:
     enable: true
@@ -21,7 +21,7 @@ params:
     title: "Manish"
     subtitle: "I enjoy xploring"
     content: "a curious and quick learner. presently a student persuing B.Tech Robotics and Automation"
-    image: /avatar.svg
+    image: avatar.svg
     button:
       enable: true
       name: "Resume"
