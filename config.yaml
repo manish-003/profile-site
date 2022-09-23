@@ -66,6 +66,7 @@ params:
         - "markdown"
         - "ssh"
   
+  #Education
   education:
     enable: true
     items:
@@ -84,6 +85,42 @@ params:
           name: "Vairams matric Higher Sceondary School"
         date: "2018"
         GPA: "475/500"
+
+  # projects
+  projects:
+    enable: true
+    # title: "Custom Name"
+    items:
+      - title: xlsx auto fill
+        content: A python sript to transfer and organize data between xlsx sheets.
+        image: openpyxl.jpg
+        featured:
+          name: Try
+          link: https://github.com/manish-003/xlsx-auto-fill
+        badges:
+           - "Python"
+           - "Openpyxl"
+           - "pysimpleGUI"
+        links:
+        #   - icon: fa fa-envelope
+        #     url: mailto:?subject=Hugo%20Profile%20Template&body=Check%20it%20out:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
+          - icon: fab fa-github
+            url: https://github.com/manish-003/xlsx-auto-fill
+        #   - icon: fab fa-twitter
+        #     url: https://twitter.com/intent/tweet?text=Check+it+out:&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile
+
+      - title: profile-site
+        content: my first resume website
+        image: prflsite.png
+        featured:
+          name: see
+          link: https://manish-003.github.io/profile-site
+        badges:
+          - "Hugo"
+          - "github pages"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/manish-003/profile-site
 
   contact:
     enable: true
