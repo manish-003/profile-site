@@ -12,6 +12,7 @@ markup:
 
 params:
   title: "My profile"
+  staticPath: https://manish-003.github.io/profile-site/
   favicon: "/avatar.svg"
   # Hero
   hero:
