@@ -25,7 +25,7 @@ params:
     button:
       enable: true
       name: "Resume"
-      url: "#"
+      url: "Manish CV.pdf"
       download: true 
     socialLinks:
       fontAwesomeIcons:
