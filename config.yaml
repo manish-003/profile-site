@@ -118,6 +118,20 @@ params:
           - icon: fab fa-github
             url: https://github.com/manish-003/profile-site
 
+      - title: AURA site
+        content: a Website for AURA club of REC
+        image: aurahome.png
+        featured:
+          name: see
+          link: https://www.rajalakshmi.org/aura
+        badges:
+          - "Hugo"
+          - "HTML"
+          - "CSS"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/manish-003/aura
+
   contact:
     enable: true
     content:  My inbox is always open. Whether you have a question or just want to say hi, I'll try my best to get back to you!
