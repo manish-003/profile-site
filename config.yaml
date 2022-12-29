@@ -13,7 +13,7 @@ markup:
 params:
   title: "My profile"
   staticPath: https://manish-003.github.io/profile-site/
-  favicon: "avatar.svg"
+  favicon: "profile-pic.png"
   # Hero
   hero:
     enable: true
@@ -21,7 +21,7 @@ params:
     title: "Manish"
     subtitle: "I enjoy xploring"
     content: "a curious and quick learner. presently a student persuing B.Tech Robotics and Automation"
-    image: avatar.svg
+    image: profile-pic.png
     button:
       enable: true
       name: "Resume"
@@ -37,12 +37,16 @@ params:
           url: https://linkedin.com/in/manish-s-n-31b042213
         - icon: fab fa-telegram
           url: https://telegram.org/Fan_of_Myself
+        - icon: fas fa-envelope
+          url: mailto:manish2k03@pm.me
+        - icon: fab fa-goodreads
+          url: https://www.goodreads.com/manish003
   
   #about
   about:
     enable: true
     title: "About me"
-    image: "avatar.svg"
+    image: "profile-pic.png"
     content: |-
       the best way to know about me it to meet me in person.. 
       I wont ask you to judge me based on some text you saw on the internet. and i am sure meeting me will be surprise for you😉
