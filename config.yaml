@@ -13,7 +13,7 @@ markup:
 params:
   title: "My profile"
   staticPath: https://manish-003.github.io/profile-site/
-  favicon: "profile-pic.png"
+  favicon: "avatar.svg"
   # Hero
   hero:
     enable: true
@@ -21,7 +21,7 @@ params:
     title: "Manish"
     subtitle: "I enjoy xploring"
     content: "a curious and quick learner. presently a student persuing B.Tech Robotics and Automation"
-    image: profile-pic.png
+    image: avatar.svg
     button:
       enable: true
       name: "Resume"
@@ -46,12 +46,9 @@ params:
   about:
     enable: true
     title: "About me"
-    image: "profile-pic.png"
+    image: "avatar.svg"
     content: |-
-      the best way to know about me it to meet me in person.. 
-      I wont ask you to judge me based on some text you saw on the internet. and i am sure meeting me will be surprise for you😉
-      .
-      .
+      the best way to know about me is to meet me in person.. I won't ask you to judge me based on some text you saw on the internet. and I am sure meeting me will be a surprise for you😉 . . Here are some things i have experimented with
 
 
     skills:
